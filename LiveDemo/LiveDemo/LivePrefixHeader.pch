@@ -1,0 +1,25 @@
+//
+//  LivePrefixHeader.pch
+//  LiveDemo
+//
+//  Created by bigfish on 2019/1/29.
+//  Copyright © 2019 zzb. All rights reserved.
+//
+
+#ifndef LivePrefixHeader_pch
+#define LivePrefixHeader_pch
+
+#import <AFNetworkActivityIndicatorManager.h>
+
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+#import <GoogleSignIn/GoogleSignIn.h>
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
+
+#import <Firebase.h>
+
+
+#endif /* LivePrefixHeader_pch */
