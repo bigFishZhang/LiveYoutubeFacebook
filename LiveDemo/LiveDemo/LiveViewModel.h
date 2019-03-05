@@ -30,8 +30,7 @@
 // Facebook创建直播
 //(1) 创建直播获取URL，自行推流
 @property (nonatomic,strong) RACCommand *creatFacebookBroadcastCommand;
-//(2) 结束直播
-@property (nonatomic,strong) RACCommand *stopFacebookLiveStreamCommand;
+
 
 @end
 

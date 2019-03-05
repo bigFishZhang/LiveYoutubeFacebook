@@ -24,6 +24,24 @@
 		FF41C9C022006B0600765766 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF41C9BF22006B0600765766 /* GoogleService-Info.plist */; };
 		FF41C9C122006B0600765766 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF41C9BF22006B0600765766 /* GoogleService-Info.plist */; };
 		FF41C9C222006B0600765766 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF41C9BF22006B0600765766 /* GoogleService-Info.plist */; };
+		FF53499622019E8700B96A48 /* ZBURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498B22019E8700B96A48 /* ZBURLRequest.m */; };
+		FF53499722019E8700B96A48 /* ZBURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498B22019E8700B96A48 /* ZBURLRequest.m */; };
+		FF53499822019E8700B96A48 /* ZBURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498B22019E8700B96A48 /* ZBURLRequest.m */; };
+		FF53499922019E8700B96A48 /* ZBRequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498C22019E8700B96A48 /* ZBRequestEngine.m */; };
+		FF53499A22019E8700B96A48 /* ZBRequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498C22019E8700B96A48 /* ZBRequestEngine.m */; };
+		FF53499B22019E8700B96A48 /* ZBRequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498C22019E8700B96A48 /* ZBRequestEngine.m */; };
+		FF53499C22019E8700B96A48 /* ZBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498D22019E8700B96A48 /* ZBRequestManager.m */; };
+		FF53499D22019E8700B96A48 /* ZBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498D22019E8700B96A48 /* ZBRequestManager.m */; };
+		FF53499E22019E8700B96A48 /* ZBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498D22019E8700B96A48 /* ZBRequestManager.m */; };
+		FF53499F22019E8700B96A48 /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498F22019E8700B96A48 /* ZBCacheManager.m */; };
+		FF5349A022019E8700B96A48 /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498F22019E8700B96A48 /* ZBCacheManager.m */; };
+		FF5349A122019E8700B96A48 /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53498F22019E8700B96A48 /* ZBCacheManager.m */; };
+		FF5349A222019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53499122019E8700B96A48 /* NSString+ZBUTF8Encoding.m */; };
+		FF5349A322019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53499122019E8700B96A48 /* NSString+ZBUTF8Encoding.m */; };
+		FF5349A422019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53499122019E8700B96A48 /* NSString+ZBUTF8Encoding.m */; };
+		FFC845AA222E0511001CC0CD /* UserDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC845A8222E0511001CC0CD /* UserDefaultUtil.m */; };
+		FFC845AB222E0511001CC0CD /* UserDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC845A8222E0511001CC0CD /* UserDefaultUtil.m */; };
+		FFC845AC222E0511001CC0CD /* UserDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC845A8222E0511001CC0CD /* UserDefaultUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +91,21 @@
 		FF41C9BA21FFF93900765766 /* LiveViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewModel.m; sourceTree = "<group>"; };
 		FF41C9BE21FFFAD600765766 /* LivePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivePrefixHeader.pch; sourceTree = "<group>"; };
 		FF41C9BF22006B0600765766 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF53498A22019E8700B96A48 /* ZBRequestConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRequestConst.h; sourceTree = "<group>"; };
+		FF53498B22019E8700B96A48 /* ZBURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBURLRequest.m; sourceTree = "<group>"; };
+		FF53498C22019E8700B96A48 /* ZBRequestEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRequestEngine.m; sourceTree = "<group>"; };
+		FF53498D22019E8700B96A48 /* ZBRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRequestManager.m; sourceTree = "<group>"; };
+		FF53498E22019E8700B96A48 /* NSString+ZBUTF8Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZBUTF8Encoding.h"; sourceTree = "<group>"; };
+		FF53498F22019E8700B96A48 /* ZBCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCacheManager.m; sourceTree = "<group>"; };
+		FF53499022019E8700B96A48 /* ZBURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBURLRequest.h; sourceTree = "<group>"; };
+		FF53499122019E8700B96A48 /* NSString+ZBUTF8Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZBUTF8Encoding.m"; sourceTree = "<group>"; };
+		FF53499222019E8700B96A48 /* ZBRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRequestManager.h; sourceTree = "<group>"; };
+		FF53499322019E8700B96A48 /* ZBRequestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRequestEngine.h; sourceTree = "<group>"; };
+		FF53499422019E8700B96A48 /* ZBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNetworking.h; sourceTree = "<group>"; };
+		FF53499522019E8700B96A48 /* ZBCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCacheManager.h; sourceTree = "<group>"; };
+		FFC845A8222E0511001CC0CD /* UserDefaultUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultUtil.m; sourceTree = "<group>"; };
+		FFC845A9222E0511001CC0CD /* UserDefaultUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultUtil.h; sourceTree = "<group>"; };
+		FFC845AE222E057A001CC0CD /* VendorMarcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMarcos.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +184,8 @@
 		FF41C98621FFF5F400765766 /* LiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FFC845AD222E0543001CC0CD /* Macro */,
+				FF53498722019E4E00B96A48 /* Helpers */,
 				FF41C98721FFF5F400765766 /* AppDelegate.h */,
 				FF41C98821FFF5F400765766 /* AppDelegate.m */,
 				FF41C98A21FFF5F400765766 /* ViewController.h */,
@@ -184,6 +219,51 @@
 				FF41C9AD21FFF5F700765766 /* Info.plist */,
 			);
 			path = LiveDemoUITests;
+			sourceTree = "<group>";
+		};
+		FF53498722019E4E00B96A48 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FFC845A7222E0511001CC0CD /* UserDefault */,
+				FF53498922019E8700B96A48 /* ZBNetworking */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FF53498922019E8700B96A48 /* ZBNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FF53498A22019E8700B96A48 /* ZBRequestConst.h */,
+				FF53498B22019E8700B96A48 /* ZBURLRequest.m */,
+				FF53498C22019E8700B96A48 /* ZBRequestEngine.m */,
+				FF53498D22019E8700B96A48 /* ZBRequestManager.m */,
+				FF53498E22019E8700B96A48 /* NSString+ZBUTF8Encoding.h */,
+				FF53498F22019E8700B96A48 /* ZBCacheManager.m */,
+				FF53499022019E8700B96A48 /* ZBURLRequest.h */,
+				FF53499122019E8700B96A48 /* NSString+ZBUTF8Encoding.m */,
+				FF53499222019E8700B96A48 /* ZBRequestManager.h */,
+				FF53499322019E8700B96A48 /* ZBRequestEngine.h */,
+				FF53499422019E8700B96A48 /* ZBNetworking.h */,
+				FF53499522019E8700B96A48 /* ZBCacheManager.h */,
+			);
+			path = ZBNetworking;
+			sourceTree = "<group>";
+		};
+		FFC845A7222E0511001CC0CD /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				FFC845A8222E0511001CC0CD /* UserDefaultUtil.m */,
+				FFC845A9222E0511001CC0CD /* UserDefaultUtil.h */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		FFC845AD222E0543001CC0CD /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				FFC845AE222E057A001CC0CD /* VendorMarcos.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,9 +482,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF53499622019E8700B96A48 /* ZBURLRequest.m in Sources */,
+				FF5349A222019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */,
+				FF53499922019E8700B96A48 /* ZBRequestEngine.m in Sources */,
 				FF41C98C21FFF5F400765766 /* ViewController.m in Sources */,
 				FF41C99721FFF5F700765766 /* main.m in Sources */,
+				FF53499C22019E8700B96A48 /* ZBRequestManager.m in Sources */,
 				FF41C9BB21FFF93900765766 /* LiveViewModel.m in Sources */,
+				FF53499F22019E8700B96A48 /* ZBCacheManager.m in Sources */,
+				FFC845AA222E0511001CC0CD /* UserDefaultUtil.m in Sources */,
 				FF41C98921FFF5F400765766 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +499,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF53499D22019E8700B96A48 /* ZBRequestManager.m in Sources */,
+				FF53499722019E8700B96A48 /* ZBURLRequest.m in Sources */,
+				FF5349A022019E8700B96A48 /* ZBCacheManager.m in Sources */,
 				FF41C9BC21FFF93900765766 /* LiveViewModel.m in Sources */,
+				FF5349A322019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */,
 				FF41C9A121FFF5F700765766 /* LiveDemoTests.m in Sources */,
+				FFC845AB222E0511001CC0CD /* UserDefaultUtil.m in Sources */,
+				FF53499A22019E8700B96A48 /* ZBRequestEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +514,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF53499E22019E8700B96A48 /* ZBRequestManager.m in Sources */,
+				FF53499822019E8700B96A48 /* ZBURLRequest.m in Sources */,
+				FF5349A122019E8700B96A48 /* ZBCacheManager.m in Sources */,
 				FF41C9BD21FFF93900765766 /* LiveViewModel.m in Sources */,
+				FF5349A422019E8700B96A48 /* NSString+ZBUTF8Encoding.m in Sources */,
 				FF41C9AC21FFF5F700765766 /* LiveDemoUITests.m in Sources */,
+				FFC845AC222E0511001CC0CD /* UserDefaultUtil.m in Sources */,
+				FF53499B22019E8700B96A48 /* ZBRequestEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
